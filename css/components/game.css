@@ -1,0 +1,92 @@
+.game body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.game footer {
+  background-color: #e3f2fd;
+  text-align: center;
+  color: lightblue;
+}
+
+.game main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+  justify-content: start;
+  text-align: center;
+}
+
+.genie{
+  width: 300px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+.ending-form label{
+  font-weight: bold;
+}
+.ending-form input,label {
+  height: 40px;
+  width: 300px;
+}
+
+.btn {
+  width: 150px;
+  height: 60px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 1.3em;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.btn-start {
+  background-color: #ffc107;
+}
+.btn-start:hover {
+  background-color: #c99700;
+}
+
+.btn-restart {
+  background-color: #ffc107;
+}
+.btn-restart:hover {
+  background-color: #c99700;
+}
+
+.btn-yes {
+  background-color: #1fcd48;
+}
+.btn-yes:hover {
+  background-color: #008f21;
+}
+
+.btn-no {
+  background-color: #ff0018;
+}
+.btn-no:hover {
+  background-color: #b80012;
+}
+
+.btn-add-guess {
+  background-color: #fd7e14;
+  width: 250px;
+}
+.btn-add-guess:hover {
+  background-color: #cd5c00;
+}

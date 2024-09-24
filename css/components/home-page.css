@@ -1,0 +1,69 @@
+.home-page body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.home-page footer {
+  background-color: #e3f2fd;
+  text-align: center;
+  color: lightblue;
+}
+
+.home-page main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-page .logo {
+  color: #2385cf;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* base */
+.nav-link {
+  background-color: #93cdfa;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 5px;
+}
+
+.nav-link.active {
+  margin: 5px;
+  background-color: #fcf064;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.navbar-brand {
+  color: #fcf064;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: #2385cf;
+}
+
+.about-us {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #2385cf;
+  cursor: default;
+  text-decoration: none;
+}
+.about-us:hover {
+  color: #2385cf;
+}

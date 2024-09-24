@@ -1,0 +1,28 @@
+
+.about body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.about footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e3f2fd;
+  text-align: center;
+  color: lightblue;
+}
+
+.about main {
+  margin: 50px;
+  font-size: 1.5rem;
+}
+
+.scrollspy-example {
+  max-height: 50vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
